@@ -10,10 +10,9 @@ body{
     position: sticky;
     z-index: 100;
 }
-.them{
-   background: rgba(0, 0, 0, 0.933);
-   color:black;
-   
+.card{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 .card ul a{
     float: right;
