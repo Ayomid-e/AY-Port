@@ -1,11 +1,21 @@
 body{
-    background: url(/assets/img/bckg.jpg);
+    background: url(/assets/img/bckggg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+
 }
 .navbar{
     background: transparent !important;
     position: sticky;
     z-index: 100;
+}
+.them{
+   background: rgba(0, 0, 0, 0.933);
+   color:black;
+   
+}
+.card ul a{
+    float: right;
+    margin:0 .3rem;
 }
