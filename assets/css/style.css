@@ -1,4 +1,11 @@
 body{
     background: url(/assets/img/bckg.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.navbar{
+    background: transparent !important;
+    position: sticky;
+    z-index: 100;
 }
