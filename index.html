@@ -20,9 +20,9 @@
 <body>
 
      <!-- navbar  -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top navbarscroll p-1 bg-opacity-50">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">AY Port</a>
+        <a class="navbar-brand fw-bold" href="#">YELLO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,18 +40,21 @@
             </ul>
             <form class="d-flex">
             <input class="form-control me-2" type="text" placeholder="Search">
-            <button class="btn btn-secondary" type="button">Search</button>
+            <button class="btn btn-dark" type="button">Search</button>
             </form>
         </div>
         </div>
     </nav>
 
-
+    <!-- Welcome  -->
     <div class="container py-5 my-5">
         <div class="row">
             <div class="col-md-5 mx-auto">
               <div class="card p-3">
-                  <div class="display-5 text-center">Tasks</div>
+                  <div class="fw-bold text-white text-center fs-2 fst-italic">
+                      Welcome
+                  </div>
+                  <!-- <div class="display-5 text-center">Tasks</div>
                   <div class="form my-2">
                       <form action="">
                           <div class="form-floating">
@@ -69,28 +72,142 @@
                           <li class="list-group-item">Sleeping <a href=""><i class="bi bi-activity text-success"></i></a></li>
                           <li class="list-group-item">Bathing<a href=""><i class="bi bi-bag-x text-success"></i></a> </li>
                       </ul>
-                  </div>
+                  </div> -->
               </div>
             </div>
         </div>
     </div>
+    <!-- main form  -->
+    <!-- main form  -->
+    <!-- main form  -->
+    <!-- main form  -->
+    <section id="anoform">
+        <div class="container py-5 my-5">
+            <div class="row">
+                <div class="col-md-5 mx-auto">
+                    <div class="card p-3">
+                        <form class="well form-horizontal" action=" " method="get"  id="contact_form">
+                            <div class="form-floating">
+                                <fieldset>
+                                
+                                    <!-- Form Name -->
+                            
+                                    <legend class="text-center fw-bold d-h2">Registration Form</legend><br>
+                                        
+                                    <!-- Text input-->
+                                    <label class="col-md-2 control-label">First Name</label>
+                                    <div class="input-group mb-2 p-1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
+                                        <input type="text" class="form-control p-3" placeholder="First Name" aria-label="fname" aria-describedby="basic-addon1">
+                                    </div>
+                                    <!-- Text input-->
+                                    <label class="col-md-2 control-label">Last Name</label>
+                                    <div class="input-group mb-2 p-1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
+                                        <input type="text" class="form-control p-3" placeholder="Last Name" aria-label="lname" aria-describedby="basic-addon1">
+                                    </div> 
+                                    <!-- input select                                          -->
+                                    <label class="col-md-4 control-label">Department / Office</label>   
+                                    <div class="form-group col-auto p-1">
+                                        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                                        <select class="form-select p-3" id="autoSizingSelect">
+                                          <option selected>Select your Department / Office..</option>
+                                          <option value="1">Department of Engineering</option>
+                                          <option value="2">Department of Agriculture</option>
+                                          <option value="3">Accounting Office</option>
+                                          <option value="4">Tresurer's Office</option>
+                                          <option value="5">MPDC</option>
+                                          <option value="6">MCTC</option>
+                                          <option value="7">MCR</option>
+                                          <option value="8">Mayor's Office</option>
+                                          <option value="9">Tourism Office</option>
+                                        </select>
+                                    </div>
+                                        
+                                    <!-- Text input-->
+                                    <label class="col-md-4 control-label">Username</label>
+                                    <div class="input-group mb-2 p-1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
+                                        <input type="text" class="form-control p-3" placeholder="Username" aria-label="uname" aria-describedby="basic-addon1">
+                                    </div> 
 
-   
+                                    <!-- Text input-->
+                                    <label class="col-md-2 control-label">Password</label>
+                                    <div class="input-group mb-2 p-1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill"></i></span>
+                                        <input type="password" class="form-control p-3" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
+                                    </div> 
+                                        
+                                    <!-- Text input-->
+                                    <label class="col-md-2 control-label d-inline"> Confirm Password</label>
+                                    <div class="input-group mb-2 p-1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill"></i></span>
+                                        <input type="password" class="form-control p-3" placeholder="Confirm Password" aria-label="password" aria-describedby="basic-addon1">
+                                    </div> 
+                                    
+                                    <!-- Text input-->
+                                    <label class="col-md-2 control-label">Email</label>
+                                    <div class="input-group mb-2 p-1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-fill"></i></span>
+                                        <input type="email" class="form-control p-3" placeholder="Email Address" aria-label="email" aria-describedby="basic-addon1">
+                                    </div>
+                                    
+                                    <!-- Text input-->
+                                    <label class="col-md-2 control-label d-inline">Contact No.</label>
+                                    <div class="input-group mb-2 p-1">
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-telephone-fill"></i></span>
+                                        <input type="tel" class="form-control p-3" placeholder="(+234...)" aria-label="contact_no" aria-describedby="basic-addon1">
+                                    </div>   
+                                    
+                                    <!-- Upload CV -->
+                                    <label class="col-md-2 control-label d-inline">Upload Your CV</label>
+                                    <div class="input-group mb-3 p-1">
+                                        <input type="file" class="form-control p-3 rounded-1" id="inputGroupFile02">
+                                        <button class="input-group-text rounded-3 mx-1" for="inputGroupFile02">Upload CV</button>
+                                    </div>
 
+                                    <!-- About  -->
+                                    <label class="col-md-2 control-label d-inline">Tell us Something</label>
+                                    <div class="form-floating">
+                                        <textarea class="form-control text-black" placeholder="Write a little about yourself..." id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Here...</label>
+                                    </div>
 
-     
-      
-    
+                                    <!-- Success message -->
+                                    <div class="d-grid my-3">
+                                        <div class="alert alert-success" role="alert" id="success_message">Success!! <i class="bi bi-hand-thumbs-up"></i> 
+                                        </div>
+                                    </div>
 
-
-
-
-    
-
-
-
-
-
+                                    <!-- Button -->
+                                    <div class="form-group ">
+                                        <label class="col-md-4 control-label"></label>
+                                            <div class=" mx-auto d-grid p-2">
+                                                <button type="submit" class="btn btn-dark p-3" >SUBMIT <span><i class="bi bi-send text-white"></i></span></button>
+                                            </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- footer section  -->
+   <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.snapchat.com/" target="_blank"><i class="bi bi-snapchat"></i></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></i></i></a>
+            </div>
+        </div>
+    </footer> 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

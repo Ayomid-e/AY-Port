@@ -1,12 +1,19 @@
+:root{
+    --primary-color: #000000a7;
+    --secondary-color: #84100d;
+    ---light-color:#00000026;
+    --our-color:white;
+    --my-color:#91989e;
+}
 body{
     background: url(/assets/img/bckggg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+    background-attachment: fixed;
 
 }
 .navbar{
-    background: transparent !important;
     position: sticky;
     z-index: 100;
 }
@@ -17,4 +24,36 @@ body{
 .card ul a{
     float: right;
     margin:0 .3rem;
+}
+#footer .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+#footer .social-icons .bi-facebook{
+    padding: .5rem;
+}
+#footer .social-icons .bi-instagram{
+    padding: .5rem;
+}
+#footer .social-icons .bi-twitter{
+    padding: .5rem;
+}
+#footer .social-icons .bi-linkedin{
+    padding: .5rem;
+}
+#footer .social-icons .bi-snapchat{
+    padding: .5rem;
+}
+#footer .social-icons .bi-whatsapp{
+    padding: .5rem;
+}
+
+.bi-facebook:hover,.bi-instagram:hover,.bi-twitter:hover,.bi-linkedin:hover,.bi-snapchat:hover,.bi-whatsapp:hover{
+    color: var(--our-color);
+}
+.bi {
+    color: #000;
+}
+#footer {
+    text-align: center;
 }
